@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.VerticalHorizantal"
+             Title="VerticalHorizantal">
+
+<ScrollView>
+    <VerticalStackLayout Padding="20" Spacing="30" Background="Beige" >
+
+        <Frame CornerRadius="15" BorderColor="Transparent">
+            <VerticalStackLayout Background="White" Padding="20" >
+                
+                <HorizontalStackLayout>
+
+                    <Image WidthRequest="200" Source="dotnet_bot.png"/>
+
+                    <VerticalStackLayout VerticalOptions="Center" >
+
+                        <Label Text="Texto" FontSize="20" FontAttributes="Bold"/>
+                        <Label Text="Texto"/>
+
+                    </VerticalStackLayout>
+
+                </HorizontalStackLayout>
+
+                <Button Text="Comprar" Clicked="Comprar_Clicked"/>
+                
+                <Label  x:Name="LabelComprar" Background="LimeGreen" TextColor="White" Margin="10" Padding="10" 
+                        IsVisible="False" Text="Produto adicionado ao carrinho!"/>
+                
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame CornerRadius="15" BorderColor="Transparent">
+            <VerticalStackLayout  Background="White" Padding="20">
+                <HorizontalStackLayout>
+
+                    <Image WidthRequest="200" Source="dotnet_bot.png"/>
+
+                    <VerticalStackLayout VerticalOptions="Center" >
+
+                        <Label Text="Texto" FontSize="20" FontAttributes="Bold"/>
+                        <Label Text="Texto"/>
+
+                    </VerticalStackLayout>
+
+                </HorizontalStackLayout>
+
+                <Button Text="Comprar"/>
+            </VerticalStackLayout>
+        </Frame>    
+
+        <Frame CornerRadius="15" BorderColor="Transparent">    
+            <VerticalStackLayout  Background="White" Padding="20">
+                <HorizontalStackLayout>
+
+                    <Image WidthRequest="200" Source="dotnet_bot.png"/>
+
+                    <VerticalStackLayout VerticalOptions="Center" >
+
+                        <Label Text="Texto" FontSize="20" FontAttributes="Bold"/>
+                        <Label Text="Texto"/>
+
+                    </VerticalStackLayout>
+
+                </HorizontalStackLayout>
+
+                <Button Text="Comprar"/>
+            </VerticalStackLayout>
+        </Frame>
+
+    </VerticalStackLayout>
+</ScrollView>    
+    
+</ContentPage>
