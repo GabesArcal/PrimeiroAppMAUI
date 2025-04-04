@@ -9,16 +9,19 @@
     
 
     <ShellContent
+    Icon="dotnet_bot.png"
     Title="Tela de Login"
     ContentTemplate="{DataTemplate local:MainPage}"
     Route="MainPage" />
 
     <ShellContent
+    Icon="dotnet_bot.png"
     Title="Vertical e Horizontal"
     ContentTemplate="{DataTemplate local:VerticalHorizantal}"
     Route="VerticalHorizantal" />
 
     <ShellContent
+    Icon="dotnet_bot.png"    
     Title="Grid"
     ContentTemplate="{DataTemplate local:Grid}"
     Route="Grid" />

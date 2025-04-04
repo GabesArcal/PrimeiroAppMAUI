@@ -2,7 +2,7 @@
 {
     public partial class MainPage : ContentPage
     {
-       
+        int cont = 0;
 
         public MainPage()
         {
